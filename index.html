@@ -1,0 +1,774 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <title>TNOG TM</title>
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/master.css">
+</head>
+<body>
+    <!-- Start header  -->
+    <header>
+        <div class="container marginHeader">
+            <div class="topHeader">
+                <div class="leftTopHeader">
+                    <div class="headerLang">
+                        <a>Language <ion-icon name="chevron-down-outline"></ion-icon></a>
+                        <ul class="ulLang">
+                            <li><a href="#">العربية</a></li>
+                            <li><a href="#">English</a></li>
+                            <li><a href="#">Spanish</a></li>
+                            <li><a href="#">French</a></li>
+                            <li><a href="#">Русский (Russian)</a></li>
+                            <li><a href="#">繁體中文 (Traditional Chinese)</a></li>
+                            <li><a href="#">日本語 (Japanese)</a></li>
+                            <li><a href="#">한국어 (Korean)</a></li>
+                            <li><a href="#">ไทย (Thai)</a></li>
+                            <li><a href="#">Български (Bulgarian)</a></li>
+                            <li><a href="#">Čeština (Czech)</a></li>
+                            <li><a href="#">Dansk (Danish)</a></li>
+                            <li><a href="#">Deutsch (German)</a></li>
+                            <li><a href="#">Español - España (Spanish - Spain)</a></li>
+                            <li><a href="#">Español - Latinoamérica (Spanish - Latin America)</a></li>
+                            <li><a href="#">Italiano (Italian)</a></li>
+                            <li><a href="#">Magyar (Hungarian)</a></li>
+                            <li><a href="#">Português (Portuguese)</a></li>
+                            <li><a href="#">Português - Brasil (Portuguese - Brazil)</a></li>
+                            <li><a href="#">Română (Romanian)</a></li>
+                            <li><a href="#">Suomi (Finnish)</a></li>
+                            <li><a href="#">Svenska (Swedish)</a></li>
+                            <li><a href="#">Türkçe (Turkish)</a></li>
+                            <li><a href="#">Tiếng Việt (Vietnamese)</a></li>
+                            <li><a href="#">Українська (Ukrainian)</a></li>
+                        </ul>
+                    </div>
+                    <a class="signInUp" title="Sign Now" href="#"><ion-icon name="person"></ion-icon></a>
+                </div>
+                <a class="mode"><ion-icon name="moon"></ion-icon></a>
+            </div>
+            <div class="headerSet">
+                <ul class="ulHeader">
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">About Us</a></li>
+                    <li class="News"><a href="#">News <ion-icon name="chevron-down-outline"></ion-icon></a>
+                        <ul class="ulNews">
+                            <li><a href="#">PlayStation 4</a></li>
+                            <li><a href="#">PlayStation 5</a></li>
+                            <li><a href="#">Xbox One</a></li>
+                            <li><a href="#">Xbox Series X</a></li>
+                            <li><a href="#">Nintendo Switch</a></li>
+                            <li><a href="#">PC</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#">Blogs</a></li>
+                    <li><a href="#">Reports</a></li>
+                    <li><a href="#">hardware</a></li>
+                    <li class="More">
+                        <a href="#">More <ion-icon name="chevron-down-outline"></ion-icon></a>
+                        <ul class="ulMore">
+                            <li><a href="#">Tips and Advice</a></li>
+                            <li><a href="#">Articles</a></li>
+                            <li><a href="#">Reviews</a></li>
+                            <li><a href="#">Business</a></li>
+                            <li><a href="#">Services</a></li>
+                        </ul>
+                    </li>
+                </ul>
+                <div class="logoHeader">
+                    <img src="http://localhost:8000/wordpress/wp-content/uploads/2022/03/cropped-LogoMakr-4vNNgY-115x39.png" alt="">
+                </div>
+                <form class="formHeader">
+                    <input type="text" placeholder="Go Search">
+                    <ion-icon name="search" id="search"></ion-icon>
+                </form>
+            </div>
+        </div>
+
+        <div class="responsiveHeader">
+            <div class="resLogoHeader">
+                <img src="http://localhost:8000/wordpress/wp-content/uploads/2022/03/cropped-LogoMakr-4vNNgY-115x39.png" alt="">
+            </div>
+            <span class="resTouch"><ion-icon name="layers-outline"></ion-icon></span>
+            <div class="menuHeader">
+                <div class="contentDownMenuHeader">
+                    <input type="text" placeholder="Go Search">
+                    <a class="resMode"><ion-icon name="moon"></ion-icon></a>
+                </div>
+                <ul class="resMenuUl">
+                    <li><a href="#">Sign Now</a></li>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">About Us</a></li>
+                    <li><a href="#">Blogs</a></li>
+                    <li class="resNews"><a>News <ion-icon name="chevron-down-outline"></ion-icon></a>
+                        <ul class="resUlNews">
+                            <li><a href="#">PlayStation 4</a></li>
+                            <li><a href="#">PlayStation 5</a></li>
+                            <li><a href="#">Xbox One</a></li>
+                            <li><a href="#">Xbox Series X</a></li>
+                            <li><a href="#">Nintendo Switch</a></li>
+                            <li><a href="#">PC</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#">Reports</a></li>
+                    <li><a href="#">hardware</a></li>
+                    <li class="resMore">
+                        <a>More <ion-icon name="chevron-down-outline"></ion-icon></a>
+                        <ul class="resUlMore">
+                            <li><a href="#">Tips and Advice</a></li>
+                            <li><a href="#">Articles</a></li>
+                            <li><a href="#">Reviews</a></li>
+                            <li><a href="#">Business</a></li>
+                            <li><a href="#">Services</a></li>
+                        </ul>
+                    </li>
+                    <li class="resLang">
+                        <a>Language</a>
+                    </li>
+                </ul>
+                <div class="aboveContentResLang">
+                    <div class="contentResLang">
+                        <h3>Change Language Now</h3>
+                        <form class="resFormLnag">
+                            <select>
+                                <option value="English">English</option>
+                                <option value="العربية">العربية</option>
+                                <option value="French">French</option>
+                                <option value="Russian">Русский (Russian)</option>
+                                <option value="Chinese">繁體中文 (Traditional Chinese)</option>
+                                <option value="Japanese ">日本語 (Japanese)</option>
+                                <option value="Korean">한국어 (Korean)</option>
+                                <option value="Thai">ไทย (Thai)</option>
+                                <option value="Bulgarian">Български (Bulgarian)</option>
+                                <option value="Czech">Čeština (Czech)</option>
+                                <option value="Danish">Dansk (Danish)</option>
+                                <option value="German">Deutsch (German)</option>
+                                <option value="Spanish">Español - España (Spanish - Spain)</option>
+                                <option value="Latin America">Español - Latinoamérica (Spanish - Latin America)</option>
+                                <option value="Italian">Italiano (Italian)</option>
+                                <option value="Magyar">Magyar (Hungarian)</option>
+                                <option value="Portuguese">Português (Portuguese)</option>
+                                <option value="Brazil">Português - Brasil (Portuguese - Brazil)</option>
+                                <option value="Romanian">Română (Romanian)</option>
+                                <option value="Finnish">Suomi (Finnish)</option>
+                                <option value="Swedish">Svenska (Swedish)</option>
+                                <option value="Turkish">Türkçe (Turkish)</option>
+                                <option value="Vietnamese">Tiếng Việt (Vietnamese)</option>
+                                <option value="Ukrainian">Українська (Ukrainian)</option>
+                            </select>
+                        </form>
+                        <div class="resBtnsLang">
+                            <a class="changeLang">Change Language</a>
+                            <a class="cancelResLang">Cancel</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!-- End header  -->
+    <!-- Start landing page -->
+    <div class="landingPage">
+        <div class="overlayLanding"></div>
+        <div class="container">
+            <div class="landingContent">
+                <h2>Let’s Know All Of News Of Games In ...</h2>
+                <h1>TNOG site</h1>
+                <div class="landingBtns">
+                    <a class="readBtn" href="#">Read More <ion-icon name="arrow-forward-outline"></ion-icon></a>
+                    <a class="watchBtn" href="#"><ion-icon name="play-circle"></ion-icon> Watch Steamers</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- End landing page -->
+    <!-- Start after landing  -->
+    <div class="afterLanding">
+        <div class="container">
+            <div class="containAfterLanding">
+                <h2>Don't Worry That We Show You Every Useful For You In Your Game.</h2>
+                <h1>This Is How To Be Stronger By The Useful Information.</h1>
+            </div>
+        </div>
+    </div>
+    <!-- End after landing  -->
+    <!-- Start Gaveth  -->
+    <div class="gaveth">
+        <div class="container">
+            <div class="gavethContent">
+                <div class="imgGaveth">
+                    <img src="images/Main/assassin'sCreed.jpg" alt="">
+                </div>
+                <div class="gavethInfo">
+                    <h2>You Are Almost Ready But, You Need To A Little Step To Know!</h2>
+                    <p>you need to enter in our world of TNOG to know every thing new by new,
+                        and you can following us and subscribing in our site to be connected with us and know and you can contact us in the below, do not forgit us to know if you want.
+                    </p>
+                    <a href="#"><ion-icon name="arrow-forward-outline"></ion-icon> Subscribe</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- End Gaveth  -->
+    <!-- Start TagsAnd  -->
+    <div class="tagsAnd">
+        <div class="container">
+            <div class="flexTagsAndOther">
+                <div class="outhersToShow">
+                    <h3>Public Together</h3>
+                    <div class="myVisitOwn">
+                        <div class="imgVisit">
+                            <img src="images/Main/backageImage.jpg" alt="">
+                        </div>
+                        <p>this is article about FDWNAP site that you can download and upload all what you need and you want from games that there, also
+                            This is a quick definition</p>
+                        <a href="#"><ion-icon name="planet"></ion-icon> Visit</a>
+                    </div>
+                    <div class="attentionMsg">
+                        <div class="hAndClose">
+                            <h4>Note:</h4>
+                            <a>x</a>
+                        </div>
+                        <p>you can arrange all your information by categories and tags if was confused in all of these things</p>
+                    </div>
+
+                    <div class="toKnow">
+                        <div class="KnowImg">
+                            <img src="images/Main/adventor.jpg" alt="">
+                        </div>
+                        <div class="knowInfo">
+                            <h4>Adventure games how much do you like it?</h4>
+                            <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point.</p>
+                            <div class="spansInfoKnow">
+                                <span>Kinto Kat</span>
+                                <span>2022 | 7 | 18</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="toKnow">
+                        <div class="KnowImg">
+                            <img src="images/Main/phionex.jpg" alt="">
+                        </div>
+                        <div class="knowInfo">
+                            <h4>What do you know about this game?</h4>
+                            <p>will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters.</p>
+                            <div class="spansInfoKnow">
+                                <span>Ahmed Mansoor</span>
+                                <span>2022 | 4 | 5</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="toKnow">
+                        <div class="KnowImg">
+                            <img src="images/Main/backageImage.jpg" alt="">
+                        </div>
+                        <div class="knowInfo">
+                            <h4>what the meaning of ?</h4>
+                            <p>established fact that a reader will be distracted by the readable content of a page when look.</p>
+                            <div class="spansInfoKnow">
+                                <span>Upieras</span>
+                                <span>2021 | 9 | 14</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="youtubeContent">
+                        <h3>Top games this Year With ..</h3>
+                        <iframe src="https://www.youtube.com/embed/F-PRl-MZ1h8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                        <p>this is how to search games, But this guy can help you and he give us top games
+                            you can play it with fun time, take your focus and watch the Best Games for this year.
+                        </p>
+                        <div class="youtubeRating">
+
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="NameTags">
+                    <div class="TopGames">
+                        <h3>Top Games This Year</h3>
+                        <ol>
+                            <li>Stray</li>
+                            <li>Marvel spider man</li>
+                            <li>Gta V</li>
+                            <li>Assassin's creed</li>
+                            <li>little nightmare2</li>
+                        </ol>
+                    </div>
+                    <div class="usefulTags">
+                        <h3>Useful Tags</h3>
+                        <div class="blancTags">
+                            <a href="#">MBL</a>
+                            <a href="#">PUPG</a>
+                            <a href="#">GTA</a>
+                            <a href="#">UPISOFT</a>
+                            <a href="#">RED DEAD</a>
+                            <a href="#">MARVL</a>
+                            <a href="#">FORTNIT</a>
+                            <a href="#">STRAY</a>
+                            <a href="#">...</a>
+                        </div>
+                    </div>
+                    <div class="posts">
+                        <h3>Posts</h3>
+                        <div class="blancPosts">
+                            <a href="#">About MBL Game</a>
+                            <a href="#">How To Kill Pos In Karta!!</a>
+                            <a href="#">What If Upisoft Is Stopped Making Games?</a>
+                            <a href="#">More About ...</a>
+                        </div>
+                    </div>
+                    <div class="recentComments">
+                        <h3>Recent Comments</h3>
+                        <div class="blancComments">
+                            <span class="notSign">You are not logged in yet</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- End TagsAnd  -->
+    <!-- Start signOf  -->
+    <div class="signContent">
+        <div class="container colorSign">
+            <span>You are not logged in yet</span>
+            <div class="flexBtnsSign">
+                <a href="#">Sign In</a>
+                <a href="#">Sign Up</a>
+            </div>
+        </div>
+    </div>
+    <!-- End signOf  -->
+    <!-- Start NewsSlides  -->
+    <div class="slidesOfNews">
+        <div class="container containNewsSlides">
+            <div class="nextPrevSliders">
+                <button class="nextNews"><ion-icon name="chevron-forward"></ion-icon></button>
+                <button class="prevNews"><ion-icon name="chevron-back"></ion-icon></button>
+            </div>
+            <div class="newsSlides">
+                <div class="slideFullNews active">
+                    <div class="slideNews">
+                        <div class="slideNewsImg">
+                            <img src="https://i0.wp.com/www.vga4a.com/wp-content/uploads/%D9%85%D8%B1%D8%A7%D8%AC%D8%B9%D8%A9-%D9%88%D8%AA%D9%82%D9%8A%D9%8A%D9%85-stray.jpg?resize=780%2C470&ssl=1?v=1658148292" alt="">
+                        </div>
+                        <div class="slideInfo">
+                            <p>you can arrange all your information by categories and tags if was confused in all of these things</p>
+                            <span>2 days old</span>
+                        </div>
+                        <div class="slideOverlay">
+                            <h4>Reviews</h4>
+                            <a href="#">Visit</a>
+                        </div>
+                    </div>
+                    <div class="slideNews">
+                        <div class="slideNewsImg">
+                            <img src="https://i0.wp.com/www.vga4a.com/wp-content/uploads/GTA-Online-The-Criminal-Enterprises.jpg?resize=780%2C470&ssl=1?v=1658416767" alt="">
+                        </div>
+                        <div class="slideInfo">
+                            <p>you can arrange all your information by categories and tags if was confused in all of these things</p>
+                            <span>12 hours old</span>
+                        </div>
+                        <div class="slideOverlay">
+                            <h4>news</h4>
+                            <a href="#">Visit</a>
+                        </div>
+                    </div>
+                    <div class="slideNews">
+                        <div class="slideNewsImg">
+                            <img src="https://i0.wp.com/www.vga4a.com/wp-content/uploads/PS-Plus-1.jpg?resize=780%2C470&ssl=1" alt="">
+                        </div>
+                        <div class="slideInfo">
+                            <p>you can arrange all your information by categories and tags if was confused in all of these things</p>
+                            <span>5 hours old</span>
+                        </div>
+                        <div class="slideOverlay">
+                            <h4>news</h4>
+                            <a href="#">Visit</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="slideFullNews">
+                    <div class="slideNews">
+                        <div class="slideNewsImg">
+                            <img src="https://i0.wp.com/www.vga4a.com/wp-content/uploads/DSC02434-scaled.jpg?resize=780%2C470&ssl=1?v=1658995549" alt="">
+                        </div>
+                        <div class="slideInfo">
+                            <p>you can arrange all your information by categories and tags if was confused in all of these things</p>
+                            <span>17 hours old</span>
+                        </div>
+                        <div class="slideOverlay">
+                            <h4>Reviews</h4>
+                            <a href="#">Visit</a>
+                        </div>
+                    </div>
+                    <div class="slideNews">
+                        <div class="slideNewsImg">
+                            <img src="https://i0.wp.com/www.vga4a.com/wp-content/uploads/%D8%A8%D9%84%D8%A7%D9%8A%D8%B3%D8%AA%D9%8A%D8%B4%D9%86-5-65.jpg?resize=780%2C470&ssl=1?v=1657965250" alt="">
+                        </div>
+                        <div class="slideInfo">
+                            <p>you can arrange all your information by categories and tags if was confused in all of these things</p>
+                            <span>12 hours old</span>
+                        </div>
+                        <div class="slideOverlay">
+                            <h4>news</h4>
+                            <a href="#">Visit</a>
+                        </div>
+                    </div>
+                    <div class="slideNews">
+                        <div class="slideNewsImg">
+                            <img src="https://i0.wp.com/www.vga4a.com/wp-content/uploads/%D9%87%D9%8A%D8%AF%D9%8A%D8%AA%D8%A7%D9%83%D8%A7-%D9%85%D9%8A%D8%A7%D8%B2%D8%A7%D9%83%D9%8A-1.jpg?resize=780%2C470&ssl=1?v=1658062278" alt="">
+                        </div>
+                        <div class="slideInfo">
+                            <p>you can arrange all your information by categories and tags if was confused in all of these things</p>
+                            <span>9 hours old</span>
+                        </div>
+                        <div class="slideOverlay">
+                            <h4>blogs</h4>
+                            <a href="#">Visit</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+    <!-- End NewsSlides  -->
+    <!-- Start width Ads  -->
+    <div class="widthAds">
+        <span>No Google Ads</span>
+    </div>
+    <!-- End width Ads  -->
+    <!-- Start All News Day  -->
+    <div class="allNewsDay">
+        <div class="container">
+            <div class="newsDay">
+                <h3>Latest News And Events</h3>
+                <a href="#" class="gameNews">
+                    <div class="imgGame">
+                        <h4>blogs</h4>
+                        <img src="https://i0.wp.com/www.vga4a.com/wp-content/uploads/3-58.jpg?resize=390%2C220&ssl=1?v=1658928658" alt="">
+                    </div>
+                    <div class="gameInfo">
+                        <p>you can arrange all your information by categories and tags if was confused in all of these things</p>
+                        <span> 4 hours old</span>
+                    </div>
+                </a>
+                <a href="#" class="gameNews">
+                    <div class="imgGame">
+                        <h4>blogs</h4>
+                        <img src="https://i0.wp.com/www.vga4a.com/wp-content/uploads/GTA-6-25.jpg?resize=390%2C220&ssl=1" alt="">
+                    </div>
+                    <div class="gameInfo">
+                        <p>you can arrange all your information by categories and tags if was confused in all of these things</p>
+                        <span> 18 hours old</span>
+                    </div>
+                </a>
+                <a href="#" class="gameNews">
+                    <div class="imgGame">
+                        <h4>reviews</h4>
+                        <img src="https://i0.wp.com/www.vga4a.com/wp-content/uploads/FIFA-23.jpg?resize=390%2C220&ssl=1?v=1658955946" alt="">
+                    </div>
+                    <div class="gameInfo">
+                        <p>you can arrange all your information by categories and tags if was confused in all of these things</p>
+                        <span> 11 hours old</span>
+                    </div>
+                </a>
+                <a href="#" class="gameNews">
+                    <div class="imgGame">
+                        <h4>reviews</h4>
+                        <img src="https://i0.wp.com/www.vga4a.com/wp-content/uploads/playstation-plus-yakuza-games-1024x576-1.webp?resize=390%2C220&ssl=1" alt="">
+                    </div>
+                    <div class="gameInfo">
+                        <p>you can arrange all your information by categories and tags if was confused in all of these things</p>
+                        <span> 1 days old</span>
+                    </div>
+                </a>
+                <a href="#" class="gameNews">
+                    <div class="imgGame">
+                        <h4>news</h4>
+                        <img src="https://i0.wp.com/www.vga4a.com/wp-content/uploads/ps5-2727845.webp?resize=390%2C220&ssl=1" alt="">
+                    </div>
+                    <div class="gameInfo">
+                        <p>you can arrange all your information by categories and tags if was confused in all of these things</p>
+                        <span> 1 days old</span>
+                    </div>
+                </a>
+                <a href="#" class="gameNews">
+                    <div class="imgGame">
+                        <h4>hardware</h4>
+                        <img src="https://i0.wp.com/www.vga4a.com/wp-content/uploads/DSC02434-scaled.jpg?resize=390%2C220&ssl=1?v=1658995549" alt="">
+                    </div>
+                    <div class="gameInfo">
+                        <p>you can arrange all your information by categories and tags if was confused in all of these things</p>
+                        <span> 1 days old</span>
+                    </div>
+                </a>
+                <a href="#" class="gameNews">
+                    <div class="imgGame">
+                        <h4>reviews</h4>
+                        <img src="https://i0.wp.com/www.vga4a.com/wp-content/uploads/Star-Wars-Knights-Of-The-Old-Republic-Remake-Delayed-Indefinitely.jpg?resize=390%2C220&ssl=1?v=1658923900" alt="">
+                    </div>
+                    <div class="gameInfo">
+                        <p>you can arrange all your information by categories and tags if was confused in all of these things</p>
+                        <span> 1 days old</span>
+                    </div>
+                </a>
+                <a href="#" class="gameNews">
+                    <div class="imgGame">
+                        <h4>blogs</h4>
+                        <img src="https://i0.wp.com/www.vga4a.com/wp-content/uploads/Nier-Automata-1.jpg?resize=390%2C220&ssl=1" alt="">
+                    </div>
+                    <div class="gameInfo">
+                        <p>you can arrange all your information by categories and tags if was confused in all of these things</p>
+                        <span> 1 days old</span>
+                    </div>
+                </a>
+                <a href="#" class="gameNews">
+                    <div class="imgGame">
+                        <h4>reviews</h4>
+                        <img src="https://i0.wp.com/www.vga4a.com/wp-content/uploads/ciobulletin-sony-ps5-will-not-support-ssd-storage-expansion.jpg?resize=390%2C220&ssl=1" alt="">
+                    </div>
+                    <div class="gameInfo">
+                        <p>you can arrange all your information by categories and tags if was confused in all of these things</p>
+                        <span> 1 days old</span>
+                    </div>
+                </a>
+                <a href="#" class="gameNews">
+                    <div class="imgGame">
+                        <h4>blogs</h4>
+                        <img src="https://i0.wp.com/www.vga4a.com/wp-content/uploads/SIE-Blog_Featured-Image_PSIndies.webp?resize=390%2C220&ssl=1" alt="">
+                    </div>
+                    <div class="gameInfo">
+                        <p>you can arrange all your information by categories and tags if was confused in all of these things</p>
+                        <span> 1 days old</span>
+                    </div>
+                </a>
+                <a href="#" class="gameNews">
+                    <div class="imgGame">
+                        <h4>reports</h4>
+                        <img src="https://i0.wp.com/www.vga4a.com/wp-content/uploads/Stray-2.jpg?resize=390%2C220&ssl=1" alt="">
+                    </div>
+                    <div class="gameInfo">
+                        <p>you can arrange all your information by categories and tags if was confused in all of these things</p>
+                        <span> 1 days old</span>
+                    </div>
+                </a>
+                <a href="#" class="gameNews">
+                    <div class="imgGame">
+                        <h4>reviews</h4>
+                        <img src="https://i0.wp.com/www.vga4a.com/wp-content/uploads/MultiVersus-1.jpg?resize=390%2C220&ssl=1?v=1658916259" alt="">
+                    </div>
+                    <div class="gameInfo">
+                        <p>you can arrange all your information by categories and tags if was confused in all of these things</p>
+                        <span> 1 days old</span>
+                    </div>
+                </a>
+                <a href="#" class="gameNews">
+                    <div class="imgGame">
+                        <h4>blogs</h4>
+                        <img src="https://i0.wp.com/www.vga4a.com/wp-content/uploads/%D8%A7%D9%84%D8%B9%D8%A7%D8%A8-%D8%A8%D9%84%D8%A7%D9%8A%D8%B3%D8%AA%D9%8A%D8%B4%D9%86-%D8%A8%D9%84%D8%B3-%D8%A7%D9%84%D9%85%D8%AC%D8%A7%D9%86%D9%8A%D8%A9-%D9%8A%D9%88%D9%84%D9%8A%D9%88.jpg?resize=390%2C220&ssl=1?v=1656509203" alt="">
+                    </div>
+                    <div class="gameInfo">
+                        <p>you can arrange all your information by categories and tags if was confused in all of these things</p>
+                        <span> 1 days old</span>
+                    </div>
+                </a>
+                <button>get More</button>
+            </div>
+
+            <div class="sidesNews">
+                <div class="AdsWithHeight">
+                    <span>No Google Ads</span>
+                </div>
+                <div class="bestGamesToReviews">
+                    <h3>Top Games To Reviews</h3>
+                    <a href="#" class="bstToReview">
+                        <div class="imgBstRev">
+                            <img src="https://i0.wp.com/www.vga4a.com/wp-content/uploads/14141414-15.jpg?resize=390%2C220&ssl=1?v=1659001125" alt="">
+                        </div>
+                        <div class="BstRevInfo">
+                            <p>you can arrange all your information by categories and tags if was confused in all of these things</p>
+                            <span> 1 days old</span>
+                        </div>
+                    </a>
+                    <a href="#" class="bstToReview">
+                        <div class="imgBstRev">
+                            <img src="https://i0.wp.com/www.vga4a.com/wp-content/uploads/FIFA-23.jpg?resize=390%2C220&ssl=1?v=1658955946" alt="">
+                        </div>
+                        <div class="BstRevInfo">
+                            <p>you can arrange all your information by categories and tags if was confused in all of these things</p>
+                            <span> 1 days old</span>
+                        </div>
+                    </a>
+                    <a href="#" class="bstToReview">
+                        <div class="imgBstRev">
+                            <img src="https://i0.wp.com/www.vga4a.com/wp-content/uploads/MultiVersus-1.jpg?resize=390%2C220&ssl=1?v=1658916259" alt="">
+                        </div>
+                        <div class="BstRevInfo">
+                            <p>you can arrange all your information by categories and tags if was confused in all of these things</p>
+                            <span> 1 days old</span>
+                        </div>
+                    </a>
+                </div>
+
+                <div class="choiceUserNews">
+                    <ul class="chooseToChangeNewsUl">
+                        <li><a><ion-icon name="chatbubbles"></ion-icon></a></li>
+                        <li class="active"><a><ion-icon name="eye"></ion-icon></a></li>
+                    </ul>
+                    <div class="eyeSlidesChoice">
+                        <a href="#" class="choiceUserSlide">
+                            <div class="imgChoiceUser">
+                                <img src="https://i0.wp.com/www.vga4a.com/wp-content/uploads/FYwJuamaUAAbear.jpg?resize=390%2C220&ssl=1?v=1659047356" alt="">
+                            </div>
+                            <div class="infoChoiceUser">
+                                <p>you can arrange all your information by categories and tags if was confused in all of these things</p>
+                                <span> 1 days old</span>
+                            </div>
+                        </a>
+                        <a href="#" class="choiceUserSlide">
+                            <div class="imgChoiceUser">
+                                <img src="https://i0.wp.com/www.vga4a.com/wp-content/uploads/maxresdefault-294.jpg?resize=390%2C220&ssl=1?v=1659168427" alt="">
+                            </div>
+                            <div class="infoChoiceUser">
+                                <p>you can arrange all your information by categories and tags if was confused in all of these things</p>
+                                <span> 1 days old</span>
+                            </div>
+                        </a>
+                        <a href="#" class="choiceUserSlide">
+                            <div class="imgChoiceUser">
+                                <img src="https://i0.wp.com/www.vga4a.com/wp-content/uploads/%D9%85%D8%AD%D8%A7%D9%83%D9%8A-%D8%A3%D9%84%D8%B9%D8%A7%D8%A8-PS4-%D9%88-PS5.jpg?resize=390%2C220&ssl=1" alt="">
+                            </div>
+                            <div class="infoChoiceUser">
+                                <p>you can arrange all your information by categories and tags if was confused in all of these things</p>
+                                <span> 1 days old</span>
+                            </div>
+                        </a>
+                        <a href="#" class="choiceUserSlide">
+                            <div class="imgChoiceUser">
+                                <img src="https://i0.wp.com/www.vga4a.com/wp-content/uploads/EGS_GhostwireTokyo_TangoGameworks_S1_2560x1440-4bc1a83c819408d33e29e61f1a9d66e4-scaled.jpg?resize=220%2C150&ssl=1" alt="">
+                            </div>
+                            <div class="infoChoiceUser">
+                                <p>you can arrange all your information by categories and tags if was confused in all of these things</p>
+                                <span> 1 days old</span>
+                            </div>
+                        </a>
+                        <a href="#" class="choiceUserSlide">
+                            <div class="imgChoiceUser">
+                                <img src="https://i0.wp.com/www.vga4a.com/wp-content/uploads/3694723-shadow-warrior-3-teaser-trailer_thumb.jpg?resize=220%2C150&ssl=1" alt="">
+                            </div>
+                            <div class="infoChoiceUser">
+                                <p>you can arrange all your information by categories and tags if was confused in all of these things</p>
+                                <span> 1 days old</span>
+                            </div>
+                        </a>
+                    </div>
+
+                    <div class="chatSlidesChoiceUser">
+                        <a href="#" class="chatChoiceUserSlide">
+                            <div class="imgChatChoiceUser">
+                                <img src="https://secure.gravatar.com/avatar/eed43aeaca789994dc6fd79fb8c65fc9?s=70&d=mm&r=g" alt="">
+                            </div>
+                            <div class="infoChatChoiceUser">
+                                <p>you can arrange all your information by categories and tags if was confused in all of these things</p>
+                                <span> 1 days old</span>
+                            </div>
+                        </a>
+                        <a href="#" class="chatChoiceUserSlide">
+                            <div class="imgChatChoiceUser">
+                                <img src="https://secure.gravatar.com/avatar/eed43aeaca789994dc6fd79fb8c65fc9?s=70&d=mm&r=g" alt="">
+                            </div>
+                            <div class="infoChatChoiceUser">
+                                <p>you can arrange all your information by categories and tags if was confused in all of these things</p>
+                                <span> 1 days old</span>
+                            </div>
+                        </a>
+                        <a href="#" class="chatChoiceUserSlide">
+                            <div class="imgChatChoiceUser">
+                                <img src="https://secure.gravatar.com/avatar/eed43aeaca789994dc6fd79fb8c65fc9?s=70&d=mm&r=g" alt="">
+                            </div>
+                            <div class="infoChatChoiceUser">
+                                <p>you can arrange all your information by categories and tags if was confused in all of these things</p>
+                                <span> 1 days old</span>
+                            </div>
+                        </a>
+                        <a href="#" class="chatChoiceUserSlide">
+                            <div class="imgChatChoiceUser">
+                                <img src="https://secure.gravatar.com/avatar/eed43aeaca789994dc6fd79fb8c65fc9?s=70&d=mm&r=g" alt="">
+                            </div>
+                            <div class="infoChatChoiceUser">
+                                <p>you can arrange all your information by categories and tags if was confused in all of these things</p>
+                                <span> 1 days old</span>
+                            </div>
+                        </a>
+                        <a href="#" class="chatChoiceUserSlide">
+                            <div class="imgChatChoiceUser">
+                                <img src="https://secure.gravatar.com/avatar/eed43aeaca789994dc6fd79fb8c65fc9?s=70&d=mm&r=g" alt="">
+                            </div>
+                            <div class="infoChatChoiceUser">
+                                <p>you can arrange all your information by categories and tags if was confused in all of these things</p>
+                                <span> 1 days old</span>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- End All News Day  -->
+    <!-- Start width Ads  -->
+    <div class="widthAds">
+        <span>No Google Ads</span>
+    </div>
+    <!-- End width Ads  -->
+    <!-- Start Footer  -->
+    <footer>
+        <div class="container allFootToClick">
+            <div class="contentToClick">
+                <h3>Contact</h3>
+                <a href="#"><ion-icon name="logo-facebook"></ion-icon> facebook</a>
+                <a href="#"><ion-icon name="logo-linkedin"></ion-icon> linkedin</a>
+                <a href="#"><ion-icon name="call"></ion-icon> +01 1111111</a>
+                <a href="#"><ion-icon name="at-circle"></ion-icon> mido59478@gmail.com</a>
+            </div>
+            <div class="contentToClick">
+                <h3>Type</h3>
+                <a href="#">action</a>
+                <a href="#">new games</a>
+                <a href="#">fighting</a>
+                <a href="#">horror</a>
+                <a href="#">survival</a>
+                <a href="#">strategy</a>
+                <a href="#">Intelligence</a>
+                <a href="#">adventures</a>
+                <a href="#">Reality simulation</a>
+            </div>
+            <div class="endFooter">
+                <div class="imgLogoFooter">
+                    <img src="http://localhost:8000/wordpress/wp-content/uploads/2022/03/cropped-LogoMakr-4vNNgY-115x39.png" alt="">
+                </div>
+                <form action="#" class="footerForm">
+                    <p>enter to our world now</p>
+                    <input class="emailFooter" type="email" placeholder="email address">
+                    <input class="submitFooter" type="submit" value="Submit Now">
+                </form>
+            </div>
+        </div>
+    </footer>
+    <!-- End Footer  -->
+    <div class="pagelicenses">
+        <div class="container">
+            <p>Copyright © 2022 TNOG, Inc. All rights reserved</p>
+        </div>
+    </div>
+    <script src="js/master.js"></script>
+</body>
+</html>
