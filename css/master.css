@@ -149,7 +149,13 @@ header .marginHeader {
     width: 140px;
     height: 50px;
     border-radius: 50%;
+    display: flex;
     background-color: transparent;
+    align-items: center;
+    justify-content: center;
+    color: var(--text-color);
+    font-family: 'Montserrat';
+    letter-spacing: 5px;
 }
 .logoHeader img {
     width: 100%;
@@ -288,7 +294,13 @@ header .marginHeader {
     width: 140px;
     height: 50px;
     border-radius: 50%;
+    display: flex;
     background-color: transparent;
+    align-items: center;
+    justify-content: center;
+    color: var(--text-color);
+    font-family: 'Montserrat';
+    letter-spacing: 5px;
 }
 
 .resTouch {
@@ -1367,6 +1379,13 @@ footer {
 }
 .endFooter .imgLogoFooter {
     flex: 0.5;
+    display: flex;
+    background-color: transparent;
+    align-items: center;
+    justify-content: center;
+    color: var(--text-color);
+    font-family: 'Montserrat';
+    letter-spacing: 5px;
 }
 .endFooter .imgLogoFooter img{
     width: 100%;
